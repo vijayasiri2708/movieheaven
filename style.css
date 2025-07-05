@@ -1,0 +1,13 @@
+#box{
+    background-color: blue;
+    
+}
+.heading{
+    color: red;
+    text-align: center;
+    text-decoration: line-through;
+
+}
+button{
+    background-color: green;
+}

@@ -1,0 +1,19 @@
+p{
+    text-align:center;
+    font-weight: bolder;
+}
+h1{
+    text-align: center;
+    text-transform:uppercase ;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+
+}

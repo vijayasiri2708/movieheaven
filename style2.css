@@ -1,0 +1,16 @@
+div{
+    height:60px;
+    background-color: black;
+    border:white
+    
+}
+a{
+    font-size: 25px;
+    color: azure;
+   
+}
+*{
+    margin: 50px;
+    padding: 0;
+}
+   
