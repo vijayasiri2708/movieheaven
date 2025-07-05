@@ -1,13 +1,99 @@
-#box{
-    background-color: blue;
-    
+body{
+    background-image: url("netflix.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.heading{
+    h1{
     color: red;
+    text-align: start;
+}
+.container{
+    margin:200px;
+    color:white;
     text-align: center;
-    text-decoration: line-through;
 
 }
+#head{
+    color: white;
+    text-align: center;
+}
+#email{
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    width: 150px;
+    height: 20px;
+}
 button{
-    background-color: green;
+    background-color: red;
+    color: white;
+}
+#b{
+    background-color: red;
+    color: white;
+   position: absolute;
+   top:10px;
+   right: 10px;
+   padding: 5px 5px;
+   border-radius: 5px;
+}
+#lang{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    border-radius: 5px;
+}
+.movie{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+
+}
+.item{
+    margin: 20px;
+    border-radius: 10px;
+    transition:3s ease-in-out;
+
+}
+#now{
+    color: white;
+}
+#num{
+    position: absolute;
+    top:950px;
+    left:50px;
+    color: white;
+    font-size:100px;
+    text-align:left;
+
+}
+#num1{
+     position: absolute;
+    top:950px;
+    left:300px;
+    color: white;
+    font-size:100px;
+    text-align:left;
+}
+#num2{
+     position: absolute;
+    top:950px;
+    left:525px;
+    color: white;
+    font-size:100px;
+    text-align:left;
+}
+#num3{
+     position: absolute;
+    top:950px;
+    left:725px;
+    color: white;
+    font-size:100px;
+    text-align:left;
+    
+}
+img:hover{
+    transform: scale(0.9);
 }
